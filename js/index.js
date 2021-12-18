@@ -1,3 +1,4 @@
 function iniciarApp() {
-    alert("Funciona");
+    let principal = new PantallaPrincipal();
+    principal.Iniciar();
 }

@@ -1,4 +1,46 @@
-div.cabecera{
+div.cabecera {
     background-color: orangered;
     color: palegoldenrod;
+}
+
+h1.cabecera {
+    text-align: center;
+    font-style: oblique;
+    font-family: cursive;
+}
+
+footer {
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+div{
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.botonesDerecha {
+    float: right;
+    justify-content: space-between;
+}
+
+button {
+    text-align: center;
+    color: orangered;
+    background-color: white;
+    border-color: orangered;
+    border-style: outset;
+    border-width: 5px;
+}
+
+button:focus { 
+    outline: none !important;
+    border-color: orangered;
+    box-shadow: 0 0 10px orangered;
 }
