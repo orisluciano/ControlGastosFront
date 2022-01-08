@@ -1,6 +1,10 @@
 div.cabecera {
     background-color: orangered;
-    color: palegoldenrod;
+    color: white;
+}
+
+div.root {
+    background-image: url('./imagenes/gatoplata.jpg');
 }
 
 h1.cabecera {
@@ -16,7 +20,7 @@ footer {
     font-family: cursive;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 99%;
     height: 50px;
 }
 
@@ -37,6 +41,7 @@ button {
     border-color: orangered;
     border-style: outset;
     border-width: 5px;
+    margin: 2.5px;
 }
 
 button:focus { 
@@ -44,3 +49,19 @@ button:focus {
     border-color: orangered;
     box-shadow: 0 0 10px orangered;
 }
+
+input{
+    text-align: center;
+    color: orangered;
+    background-color: white;
+    border-color: orangered;
+    border-style: outset;
+    border-width: 5px;
+    margin: 2.5px;
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: orangered;
+    box-shadow: 0 0 10px orangered;
+ }

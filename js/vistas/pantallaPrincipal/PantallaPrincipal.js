@@ -36,7 +36,8 @@ class PantallaPrincipal {
         let btnLogin = document.createElement("button");
         btnLogin.innerHTML = this.textos.login;
         btnLogin.onclick = function () {
-            alert("proximamente");
+            let login = new Login();
+            login.Iniciar();
         }
         nav.appendChild(btnLogin);
     }
